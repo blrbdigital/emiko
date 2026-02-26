@@ -1,0 +1,7 @@
+{
+  "domain": "emiko.blrbdigital.com",
+  "type": "static",
+  "port": 3012,
+  "container": "app_emiko_blrbdigital_com",
+  "deploy_script": "/usr/local/bin/deploy_emiko_blrbdigital_com"
+}
