@@ -18,11 +18,11 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpg" alt="Emiko Golf">
     </a>
     <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#process">Process</a></li>
-        <li><a href="#collections">Collections</a></li>
-        <li><a href="#contact" class="nav-cta">Start Your Order</a></li>
+        <li><a href="<?php echo home_url(); ?>/#about">About</a></li>
+        <li><a href="<?php echo function_exists('wc_get_page_permalink') ? wc_get_page_permalink('shop') : home_url('/shop/'); ?>">Shop</a></li>
+        <li><a href="<?php echo home_url(); ?>/#gallery">Gallery</a></li>
+        <li><a href="<?php echo home_url(); ?>/#process">Process</a></li>
+        <li><a href="<?php echo function_exists('wc_get_page_permalink') ? wc_get_page_permalink('shop') : home_url('/shop/'); ?>" class="nav-cta">Shop Now</a></li>
     </ul>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
         <span></span>
