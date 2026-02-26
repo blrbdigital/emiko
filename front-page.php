@@ -1,0 +1,262 @@
+<?php get_header(); ?>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpg" alt="Emiko Golf" class="hero-logo">
+        <p class="hero-tagline">Tokyo &bull; Custom Golf Goods</p>
+        <h1>Your Game.<br>Your Cover.
+            <span class="jp-accent jp-text">カスタムゴルフヘッドカバー</span>
+        </h1>
+        <p class="hero-subtitle">Premium handcrafted head covers — designed around you, built one at a time.</p>
+        <a href="#contact" class="hero-cta">Design Yours</a>
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-section">
+    <div class="marquee-track">
+        <?php for ($i = 0; $i < 3; $i++) : ?>
+        <span class="marquee-item">Premium Leather <span class="dot"></span></span>
+        <span class="marquee-item">Custom Embroidery <span class="dot"></span></span>
+        <span class="marquee-item">Handcrafted <span class="dot"></span></span>
+        <span class="marquee-item">One of One <span class="dot"></span></span>
+        <span class="marquee-item">Monogramming <span class="dot"></span></span>
+        <span class="marquee-item">Corporate &amp; Tournament <span class="dot"></span></span>
+        <span class="marquee-item">Driver &bull; Fairway &bull; Hybrid &bull; Putter <span class="dot"></span></span>
+        <?php endfor; ?>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" style="padding-bottom: 0;">
+    <div class="about-section reveal">
+        <div class="about-image-container">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product-4.png" alt="Emiko head covers collection" class="about-image">
+            <div class="about-image-accent"></div>
+        </div>
+        <div class="about-content">
+            <p class="section-label">The Brand</p>
+            <h2>Crafted for Those<br>Who Play Different</h2>
+            <p>Emiko Golf was born from a simple idea: your head covers should be as unique as your game. Every piece we create is a one-of-one — designed from scratch, handcrafted in premium leather, and finished with precision embroidery.</p>
+            <p>From custom monograms and squadron patches to corporate logos and tournament designs, we turn your vision into a cover that turns heads on every tee box.</p>
+            <div class="about-stats">
+                <div>
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Custom</div>
+                </div>
+                <div>
+                    <div class="stat-number">1/1</div>
+                    <div class="stat-label">Every Piece</div>
+                </div>
+                <div>
+                    <div class="stat-number jp-text">革</div>
+                    <div class="stat-label">Premium Leather</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+    <div class="gallery-section">
+        <div class="section-header reveal">
+            <p class="section-label">Recent Work</p>
+            <h2>The Gallery</h2>
+            <p>Every cover tells a story. Browse our latest custom builds — from classic monograms to bold one-of-ones.</p>
+        </div>
+
+        <div class="gallery-feature-row reveal">
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product-1.png" alt="Custom monogram head cover">
+                <div class="gallery-item-overlay">
+                    <div class="gallery-item-info">
+                        <h3>Classic Monogram</h3>
+                        <span>Driver Cover &bull; Leather</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product-2.png" alt="Military patch head cover">
+                <div class="gallery-item-overlay">
+                    <div class="gallery-item-info">
+                        <h3>Squadron Patch</h3>
+                        <span>Driver Cover &bull; Black Leather</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-grid reveal">
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product-5.png" alt="Captains head covers on turf">
+                <div class="gallery-item-overlay">
+                    <div class="gallery-item-info">
+                        <h3>Captains Set</h3>
+                        <span>Full Set &bull; White &amp; Blue</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product-7.png" alt="Shield crest head cover">
+                <div class="gallery-item-overlay">
+                    <div class="gallery-item-info">
+                        <h3>Shield Crest</h3>
+                        <span>Driver Cover &bull; Navy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product-8.png" alt="Billiard tapestry head cover">
+                <div class="gallery-item-overlay">
+                    <div class="gallery-item-info">
+                        <h3>Tapestry Top</h3>
+                        <span>Hybrid Cover &bull; Mixed Media</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product-10.png" alt="Eagle patriot head cover">
+                <div class="gallery-item-overlay">
+                    <div class="gallery-item-info">
+                        <h3>Eagle Patriot</h3>
+                        <span>Driver Cover &bull; White Leather</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product-9.png" alt="Birny 1996 head cover">
+                <div class="gallery-item-overlay">
+                    <div class="gallery-item-info">
+                        <h3>Birny 1996</h3>
+                        <span>Driver Cover &bull; Retro Stripe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product-3.png" alt="Texas sway head cover">
+                <div class="gallery-item-overlay">
+                    <div class="gallery-item-info">
+                        <h3>Texas Sway</h3>
+                        <span>Driver Cover &bull; Black Leather</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- LUCKY COLLECTION FEATURE -->
+<section style="padding-top: 0;">
+    <div class="gallery-section">
+        <div class="section-header reveal" style="text-align: center; max-width: 100%;">
+            <p class="section-label">Featured</p>
+            <h2>The Lucky Collection</h2>
+        </div>
+        <div class="reveal" style="max-width: 900px; margin: 0 auto;">
+            <div class="gallery-item" style="border-radius: 4px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product-6.png" alt="Lucky collection head covers" style="aspect-ratio: 4/3; object-fit: contain; background: #f5f5f0; padding: 2rem;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+    <div class="process-section">
+        <div class="section-header reveal" style="text-align: center; max-width: 100%;">
+            <p class="section-label">How It Works</p>
+            <h2>From Concept to Cover</h2>
+        </div>
+        <div class="process-grid reveal">
+            <div class="process-step">
+                <div class="process-number">01</div>
+                <h3>Consultation</h3>
+                <p>Share your vision — logos, colors, monograms, patches. We'll sketch your concept and dial in every detail.</p>
+            </div>
+            <div class="process-step">
+                <div class="process-number">02</div>
+                <h3>Design</h3>
+                <p>Our team creates a digital mockup of your cover. Review it, refine it, and approve before we cut a single piece of leather.</p>
+            </div>
+            <div class="process-step">
+                <div class="process-number">03</div>
+                <h3>Craft</h3>
+                <p>Premium leather is hand-cut, stitched, and embroidered. Each cover is built individually — no assembly lines.</p>
+            </div>
+            <div class="process-step">
+                <div class="process-number">04</div>
+                <h3>Deliver</h3>
+                <p>Your finished cover ships in branded packaging, ready for the first tee. Every piece is a one-of-one original.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- COLLECTIONS -->
+<section id="collections">
+    <div class="collections-section">
+        <div class="section-header reveal" style="text-align: center; max-width: 100%; margin-left: auto; margin-right: auto;">
+            <p class="section-label">What We Do</p>
+            <h2>Collections</h2>
+        </div>
+        <div class="collections-grid reveal">
+            <div class="collection-card">
+                <div class="collection-icon">&#9971;</div>
+                <h3>Personal</h3>
+                <p>Your initials, your colors, your story. Monogrammed and personalized covers that are unmistakably yours.</p>
+            </div>
+            <div class="collection-card">
+                <div class="collection-icon">&#9733;</div>
+                <h3>Corporate</h3>
+                <p>Branded head covers for your company, club, or organization. Perfect for client gifts and team outings.</p>
+            </div>
+            <div class="collection-card">
+                <div class="collection-icon">&#127942;</div>
+                <h3>Tournament</h3>
+                <p>Custom tournament covers that players actually keep. Commemorate the event with a cover they'll use every round.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+    <div class="testimonials-section">
+        <div class="section-header reveal" style="text-align: center; max-width: 100%;">
+            <p class="section-label">Kind Words</p>
+            <h2>What They Say</h2>
+        </div>
+        <div class="testimonial-card reveal">
+            <p class="testimonial-quote">"The quality is unreal. I sent them my squadron patch and they turned it into the best head cover in the bag. Guys at the course can't stop asking about it."</p>
+            <p class="testimonial-author">J.B. &mdash; U-2 Flight Test</p>
+        </div>
+        <div class="testimonial-card reveal">
+            <p class="testimonial-quote">"We ordered 50 custom covers for our corporate tournament. Every single one was perfect. Emiko made us look like we spent 10x what we did."</p>
+            <p class="testimonial-author">Captains Golf Club</p>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section id="contact">
+    <div class="cta-section">
+        <div class="cta-content reveal">
+            <p class="section-label">Let's Build Something</p>
+            <h2>Ready to Design<br>Your Cover?</h2>
+            <p>Tell us what you're envisioning. We'll take it from there.</p>
+            <div class="cta-buttons">
+                <a href="mailto:hello@emikogolf.com" class="btn-primary">Start Your Order</a>
+                <a href="https://instagram.com/emikogolf" class="btn-secondary" target="_blank" rel="noopener">Follow on Instagram</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php get_footer(); ?>
